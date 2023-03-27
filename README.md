@@ -4,26 +4,27 @@ Handy Go Toolkits for curious people.
 
 
 ## Install
- apt install git golang -y
+```apt install git golang -y```
  
  ### Update
-  git clone https://github.com/udhos/update-golang
+ ``` git clone https://github.com/udhos/update-golang
   cd update-golang
-  sudo ./update-golang.sh
+  sudo ./update-golang.sh```
  
 ###for windows
-choco install git golang
+```choco install git golang```
   or
-scoop install git go
+```scoop install git go```
 or
-winget install git GoLang.Go
+```winget install git GoLang.Go```
 
 
 # Domains related things
-go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
+```go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 go install -v github.com/boy-hack/ksubdomain/cmd/ksubdomain@latest
+```
 
 
 # Port scanners
@@ -51,15 +52,16 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 # Ip related things
-go install -v github.com/projectdiscovery/asnmap/cmd/asnmap@latest
+```go install -v github.com/projectdiscovery/asnmap/cmd/asnmap@latest
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest
+```
 
+```
 go install -v github.com/projectdiscovery/openrisk@latest
 go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
 
 go install -v github.com/OWASP/Amass/cmd/amass@latest
-
 go install -v github.com/hack2fun/Gscan/releases/download/v1.0/Gscan_windows_amd64.zip
 go install -v github.com/liamg/furious@latest
 go install -v github.com/tomnomnom/assetfinder@latest
@@ -71,4 +73,4 @@ go install -v github.com/spf13/viper@latest
 go install -v github.com/eth0izzle/shhgit@latest
 go install github.com/gohugoio/hugo@latest
 go install github.com/zu1k/nali@latestna
-github.com/mmM1ku/Mscan
+github.com/mmM1ku/Mscan```
