@@ -44,6 +44,9 @@ go install -v github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/dwisiswant0/unew@latest
 go install --c github.com/Damian89/yataf@latest
 
+# Web server's stats detail
+goaccess
+
 ##somethings specials
 go install -v github.com/ariary/JSextractor@latest
 curl -lO -L https://github.com/ariary/JSextractor/releases/latest/download/jse
@@ -61,6 +64,7 @@ go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest
 ```
 
 ```
+go install -v github.com/projectdiscovery/notify/cmd/notify@latest
 go install -v github.com/projectdiscovery/openrisk@latest
 go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
 
