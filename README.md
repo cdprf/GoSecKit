@@ -12,12 +12,14 @@ Handy Go Toolkits for curious people.
   sudo ./update-golang.sh
   ```
  
-###for windows
-`choco install git golang`
+### for windows
+```
+choco install git golang
   or
-`scoop install git go`
+scoop install git go
 or
-`winget install git GoLang.Go`
+winget install git GoLang.Go
+```
 
 
 # Domains related things
