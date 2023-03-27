@@ -4,27 +4,28 @@ Handy Go Toolkits for curious people.
 
 
 ## Install
-```apt install git golang -y```
+`apt install git golang -y`
  
  ### Update
- ``` git clone https://github.com/udhos/update-golang
-  cd update-golang
-  sudo ./update-golang.sh```
+ ``` git clone https://github.com/udhos/update-golang &&
+  cd update-golang &&
+  sudo ./update-golang.sh
+  ```
  
 ###for windows
-```choco install git golang```
+`choco install git golang`
   or
-```scoop install git go```
+`scoop install git go`
 or
-```winget install git GoLang.Go```
+`winget install git GoLang.Go`
 
 
 # Domains related things
-```go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
+`go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 go install -v github.com/boy-hack/ksubdomain/cmd/ksubdomain@latest
-```
+`
 
 
 # Port scanners
